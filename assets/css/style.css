@@ -1,0 +1,98 @@
+@font-face {
+    font-family: figtree;
+    src: url(../fonts/Figtree-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: figtree;
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+}
+
+section.main .box{  
+    width: 380px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 5px 5px black;
+    margin: 220px auto;
+    padding: 23px;
+}
+
+section.main .box:hover{
+    box-shadow: 15px 15px black;
+}
+
+section.main .image img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+section.main .content h2{
+    width: 80px;
+    height: 30px;
+    background-color: hsl(47, 88%, 63%);
+    font-size: 13px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+    margin: 23px 0;
+    font-family: figtree;
+    font-weight: 800;
+    
+}
+
+section.main .content p{
+    font-weight: 400;
+    font-size: 13px;
+}
+
+section.main .content p:last-child{
+    color: hsl(0, 0%, 50%);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+section.main .content h1{
+    margin: 25px 0;
+    font-family: figtree;
+    font-size: 23px;
+    font-weight: 900;
+}
+
+section.main .content h1:hover{
+    cursor: pointer;
+    color:hsl(47, 88%, 63%)
+}
+
+section.main .credit{
+    margin: 25px 0;
+    display: flex;
+    align-items: center;
+}
+
+section.main .credit img{
+    width: 32px;
+}
+
+section.main .credit p{
+    margin-left: 12px;
+    color: black;
+    font-weight: 700;
+}
+
+.attribution {
+    font-size: 11px; 
+    text-align: center;
+    padding: 5px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
