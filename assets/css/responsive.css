@@ -10,7 +10,7 @@
     }
 
     section.main .content h1:hover{
-        cursor: none;
+        cursor: auto;
         color:black;
     }
 
