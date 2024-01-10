@@ -15,13 +15,13 @@ body{
 }
 
 section.main .box{  
-    width: 380px;
+    width: 370px;
     background-color: white;
     border: 1px solid black;
     border-radius: 15px;
     box-shadow: 5px 5px black;
-    margin: 220px auto;
     padding: 23px;
+    margin: 5vh auto;
 }
 
 section.main .box:hover{
@@ -90,7 +90,7 @@ section.main .credit p{
 .attribution {
     font-size: 11px; 
     text-align: center;
-    padding: 5px;
+    margin: 5px;
 }
 
 .attribution a {

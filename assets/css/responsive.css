@@ -1,0 +1,18 @@
+@media (max-width: 375px){
+    section.main .box{  
+        width: 90%;
+        padding: 5%;
+    }
+
+    section.main .box:hover{
+        box-shadow: 5px 5px black;
+        
+    }
+
+    section.main .content h1:hover{
+        cursor: none;
+        color:black;
+    }
+
+
+}
